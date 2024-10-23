@@ -4,8 +4,8 @@ module.exports = {
 	theme: {
 		extend: {
 			screens: {
-				mobile: '375px',
-				desktop: '1440px',
+				mobile: '375px', // => @media (min-width: 375px) { ... }
+				desktop: '1440px', // => @media (min-width: 1440px) { ... }
 			},
 			colors: {
 				'qr-white': 'hsl(0, 0%, 100%)',
